@@ -1,0 +1,95 @@
+
+
+/*
+
+body {
+  margin: 0;
+  background: #e5e5e5;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.status {
+  background: #4cd964;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.price {
+  font-weight: bold;
+  color: #555;
+}
+
+.profile-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h2 {
+  margin: 10px 0 5px;
+}
+
+.role {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.company {
+  color: #3b82f6;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+
+.tags span {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #f0f0f0;
+  font-size: 12px;
+}
+
+.tags .more {
+  background: #3b82f6;
+  color: white;
+}
+
+.description {
+  font-size: 13px;
+  color: #666;
+  margin: 15px 0;
+}
+
+.btn {
+  border: none;
+  background: none;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+ */

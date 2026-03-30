@@ -1,0 +1,206 @@
+/* css file of Mycard */
+
+body {
+  margin: 0;
+  background: #e5e5e5;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.status {
+  background: #4cd964;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.price {
+  font-weight: bold;
+  color: #555;
+}
+
+.profile-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h2 {
+  margin: 10px 0 5px;
+}
+
+.role {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.company {
+  color: #3b82f6;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.tags span {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #f0f0f0;
+  font-size: 12px;
+}
+
+.tags .more {
+  background: #3b82f6;
+  color: white;
+}
+
+.description {
+  font-size: 13px;
+  color: #666;
+  margin: 15px 0;
+}
+
+.btn {
+  border: none;
+  background: none;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* 
+.parent{
+  height: 100vh;
+  width: 100%;
+  background:#111;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;/
+}
+
+
+.card{
+  height: 350px;
+  width: 280px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.card-top img{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.card-top button{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 2px 4px;
+  border-radius: 5px;
+  gap: 3px;
+  border: 1px solid #b1b1b1;
+  color: #b1b1b1;
+  background-color: transparent;
+  
+}
+
+.card-center h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-center span{
+  font-size: 15px;
+  font-weight: 400;
+  color: #b8b8b8;
+}
+
+.card-center h2{
+  font-size: 18px;
+}
+
+.card-center .tag{
+  display: flex;
+  gap: 5px;
+}
+
+.card-center .tag h4{
+  font-size: 12px;
+  background-color: #b8b8b8;
+  color:black ;
+  padding: 3px 4px;
+  border-radius: 2px;
+  font-weight:300 ;
+}
+
+
+
+.card-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 10px 0;
+}
+
+.card-bottom div{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card-bottom p{
+  color:#b1b1b1 ;
+  padding:0 0;
+}
+.card-bottom button{
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 20px;
+  font-weight: 700;
+
+} */

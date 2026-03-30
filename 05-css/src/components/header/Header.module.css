@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 0px 1rem;
+}
+
+ .btn{
+  background-color: rgb(107, 186, 114);
+  border-radius: 20px;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+ }
