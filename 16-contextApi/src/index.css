@@ -1,0 +1,39 @@
+*{
+  margin :0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "helvetica neue";
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+  background-color: aqua;
+}
+
+.light{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+  background-color: rgb(129, 129, 15);
+}
+.dark{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+  background-color: rgb(0, 90, 31);
+}
+
+.nav2{
+  display: flex;
+  gap:40px;
+}

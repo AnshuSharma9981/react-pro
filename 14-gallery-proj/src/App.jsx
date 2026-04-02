@@ -40,7 +40,7 @@ function App() {
   return (
     
     <div className='bg-black h-screen overflow-auto text-white  p-4'>
-      <h1 className='fixed bg-red-500 rounded-full h-20 w-20 flex items-center justify-center font-bold m-4'>page {index}</h1>
+      <h1 className='fixed bg-gray-700 rounded-full h-20 w-20 flex items-center justify-center font-bold m-4'>page {index}</h1>
       {/* <button className="bg-red-800  active:scale-95 m-5 px-8 py-4 rounded-full text-white font-bold" onClick={getdata}>Get data</button> */}
     
       <div className='flex h-[82%] flex-wrap gap-4 '>
