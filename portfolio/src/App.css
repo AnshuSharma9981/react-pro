@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+ .App {
+  transition: 0.3s;
+}
+
+.dark {
+  background: #0f172a;
+  color: white;
+} 
+
+/* TOGGLE */
+.toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3a8a, #9333ea);
+  text-align: center;
+}
+
+.typing {
+  color: #facc15;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+/* BUTTONS */
+.buttons{
+  margin: 30px;
+}
+
+.buttons a {
+  margin: 10px;
+  padding: 12px 25px;
+  background: white;
+  color: black;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.buttons a:hover{
+  color: white;
+  background: #000;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+/* ROLE */
+.role-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.role-card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* SKILLS */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* PROJECTS */
+.project-card {
+  background: #1e293b;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+/* CONTACT */
+.contact-icons {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #020617;
+  padding: 20px;
+}
+
+.card, .project-card, .role-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover, .project-card:hover, .role-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+

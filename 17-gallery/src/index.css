@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+.pagination {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.pagination li {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.pagination li.active {
+  background-color: rgb(84, 255, 4);
+  color: black;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
